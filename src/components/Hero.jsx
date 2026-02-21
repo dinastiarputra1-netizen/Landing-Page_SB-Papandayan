@@ -10,9 +10,8 @@ export default function Hero() {
       {/* Background & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/Landing-Page_SB-Papandayan/gambar-hero.jpg" 
-          alt="Sambal Sunda"
-          className="w-full h-full object-cover"
+          src={`${import.meta.env.BASE_URL}gambar-hero.jpg`} 
+          alt="Hero" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-[#fffaf5]" />
       </div>
