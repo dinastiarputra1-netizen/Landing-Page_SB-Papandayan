@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/src/assets/gambar-hero.jpg" 
+          src="/Landing-Page_SB-Papandayan/gambar-hero.jpg" 
           alt="Sambal Sunda"
           className="w-full h-full object-cover"
         />
